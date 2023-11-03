@@ -1,1 +1,26 @@
 /* all important styles */
+
+
+/* nav bar */
+#nav{
+    background-color: #4b72b2;  
+}
+
+/* eventInfo page */
+#eventImageSection{
+    float: right;
+    margin: 20px;
+}
+
+
+
+
+
+/* about us page */
+body{
+    background-color: #3e4950;
+}
+#whoAreWe{
+    margin: 20px;
+
+}

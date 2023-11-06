@@ -51,7 +51,7 @@ h3 {
   -webkit-box-align: center;
   max-width: 1000px;
 
-  margin-left: 200px;
+  margin-left: 50px;
 }
 
 .service {
@@ -101,7 +101,7 @@ h3 {
 
 
 @media all and (max-width:900px) {
-  .services-grid {
+  .grid {
     display: -webkit-box;
     display: flex;
     -webkit-box-orient: vertical;
@@ -109,6 +109,3 @@ h3 {
     flex-direction: column;
   }
 }
-
-
-

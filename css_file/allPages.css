@@ -33,6 +33,7 @@
 }
 
 .nav-title, .nav-link {
+    
     transition: color 0.3s, text-shadow 0.3s; 
 }
 .nav-title:hover, .nav-link:hover {

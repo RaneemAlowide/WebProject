@@ -1,35 +1,21 @@
-/* all important styles */
-
-
-/* nav bar */
-/* #nav{
-    background-color: #4b72b2;  
-} */
-
 /* eventInfo page */
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
 #eventImageSection{
     float: right;
     margin: 20px;
 }
 
-
-
-
-
 /* about us page */
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
-
 #fullPage{
-    background-color: #3e4950;
+    background-color: #f4ebec;
     color: #F5F4F0;
     padding-top: 1px;
     font-family: 'Courier New', Courier, monospace;
 
 }
-
-
 
 #whoAreWe{
     background: linear-gradient(45deg, #593F91 , #887aa6);
@@ -60,19 +46,25 @@ color: #176B87;
 }
 
 /* About section */
+.page-section{
+  padding: 50px;
+}
 .timeline {
     position: relative;
     padding: 0;
     list-style: none;
 }
 
-.timeline-heading  {
+.timeline-heading {
     margin-top: 0;
     color: #01A8A3;
 }
+
+/* انقلهم للصفحه المشتركة */
 .section-heading{
     font-size: 50px;
     font-weight: bold;
+    color: #F1916D;
 }
 
 .section-subheading{
@@ -81,6 +73,10 @@ color: #176B87;
     color:#887aa6;
     margin-bottom: 4rem;
 }
+/* انقلهم للصفحه المشتركة */
+
+
+x
 .subtext , .subheading{
     color: #ffffff;
     line-height: 1.75;
@@ -153,20 +149,35 @@ color: #176B87;
 }
 
 .timeline-panel {
-
     display: inline-block;
     padding: 10px 15px;
     border-radius: 30px;
     margin-top: 20px;
 
 }
-
-
 .timeline-panel:hover {
     box-shadow: #593F91 0px 0px 50px 15px;
     background: #593f91a0;
     color: #176B87;
 }
+.portfolio-link {
+    color: #01A8A3;
+    text-decoration: none;
+    border: 1px solid #01A8A3;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .portfolio-link:hover {
+    border-style: outset;
+    background-color: #01A8A3;
+    color: white;
+  }
+  .portfolio-link:active{
+    border-style: outset;
+    background-color: #01A8A3;
+    color: white;
+  }
+
 
 @media (min-width: 768px) {
     .timeline:before {

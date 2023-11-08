@@ -5,12 +5,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* page style main */
 #fullPage{
     background-color: #f4ebec;
     color: #F5F4F0;
     padding-top: 1px;
 } 
 
+/* text style */
 .section-heading{
     font-size: 40px;
     font-weight: bold;
@@ -23,6 +25,7 @@
     color:#887aa6;
     margin-bottom: 4rem;
 }
+
 
 /* nav style */
 .navbar{
@@ -66,9 +69,8 @@
 
 
 
-/* footer style */
 
-/* styles.css */
+/* footer style */
 #footer {
     background-color: #473E66
 }

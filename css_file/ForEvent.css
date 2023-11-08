@@ -1,3 +1,75 @@
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  background-color: #3e4950;
+
+ 
+}
+
+
+.Desgin_all_content {
+
+  background-color: #593f91a7;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  
+ 
+}
+
+.left_side {
+  margin-top: 200px;
+  margin-left: 40px;
+   width: 700px;
+  text-align: center;
+ 
+  
+
+
+}
+
+.right_side {
+ margin-left: 100px;
+ 
+}
+h1{
+  
+  color: #86fffd;
+  margin-bottom: 70px;
+ 
+}
+.card{
+  border-radius: 70px;
+
+}
+
+
+
+
+.BigConitiner{
+  margin-top: 100px;
+  background-color: #f8f8f8a7;
+  border-radius: 100px 100px 100px 100px;
+  width: 200px;
+
+
+}
+#nav{
+  background-color: aliceblue;
+
+}
+
+.card:hover{
+ 
+  border: 6px solid #0debeb;
+    
+}
+
+
+
+.BigConitiner > h2{
+  color: aliceblue;
+}
+
 
 
 a {
@@ -14,9 +86,6 @@ p {
   line-height: 1.5;
 }
 
-.BigConitiner{
-  text-align: center;
-}
 
 
 h3 {
@@ -49,9 +118,9 @@ h3 {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-  max-width: 1000px;
-
-  margin-left: 50px; 
+  max-width: 900px;
+ 
+  margin-left: 200px; 
 }
 
 .service {
@@ -71,11 +140,6 @@ h3 {
   transition: all 0.3s ease;
 }
 
-.service:hover {
-  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);
-}
 
 .service i {
   font-size: 3.45rem;
@@ -89,7 +153,7 @@ h3 {
 }
 
 .LEAP:hover {
-  border: 2px solid #42b7ca;
+  border: 6px solid #0debeb;
 }
 
 
@@ -97,6 +161,24 @@ h3 {
 .service > * {
   flex: 1 1 100%;
 }
+.containerForFooter {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: #e7e7e7;
+  
+}
+
+
+.footerAboutus h3 {
+  margin-top: 100px;
+  color: #188c88;
+  font-size: 18px;
+}
+.btn{
+  background-color: #01A8A3;
+}
+
 
 
 

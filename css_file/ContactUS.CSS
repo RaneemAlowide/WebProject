@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+
+}
+form{
+    
+    color: #f1916d;
+    
+   
+}
+.Desgin_all_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  
+    background-color: #473E66;
+   
+  }
+  
+  .left_side {
+    margin-top: 80px;
+    margin-left: 50px;
+
+   
+    
+  
+  
+  }
+  
+  .right_side {
+    margin-top: 70px;
+
+    
+     
+    
+  }
+  img{
+    border-radius: 0px 100px 100px 0px;
+  }
+
+.container {
+  
+    max-width: 700px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+textarea
+{
+    width: 100%;
+    padding: 7px;
+    border-radius: 10px;
+    
+    margin-bottom: 10px;
+    
+}
+
+input[type="submit"] {
+    background-color:  #BD83B8;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+input[type="submit"]:hover {
+    background-color: #2a575d;
+} 
+
+
+#nav{
+    background-color: aliceblue;
+  
+  }
+
+
+
+
+
+  /*
+  #06142E
+  #1B3358
+  #473E66
+  #BD83B8
+
+
+  */

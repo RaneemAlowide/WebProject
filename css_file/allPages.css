@@ -26,10 +26,6 @@
     margin-bottom: 4rem;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> refs/remotes/origin/main
 /* nav style */
 .navbar{
     background-color: #f5d7df;
@@ -39,15 +35,9 @@
 }
 
 .nav-title, .nav-link {
-<<<<<<< HEAD
-    
-    transition: color 0.3s, text-shadow 0.3s; 
-}
-=======
     transition: color 0.3s, text-shadow 0.3s; 
 }
 
->>>>>>> refs/remotes/origin/main
 .nav-title:hover, .nav-link:hover {
     text-shadow: 2px 2px 15px #F5EFE7; 
 }
@@ -70,17 +60,9 @@
 }
 
 #nav .navbar-nav .nav-item {
-    padding: 0 15px; /* Adjust the spacing between items as needed */
+    padding: 0 15px; 
 }
-/* nav bar */
 
- 
-
-
-
-<<<<<<< HEAD
-/* footer style */
-=======
 
 /* footer style */
 #footer {
@@ -103,4 +85,4 @@
     margin: 0;
     transform: rotate(15deg);
 }
->>>>>>> refs/remotes/origin/main
+

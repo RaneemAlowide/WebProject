@@ -30,58 +30,6 @@ body{
 }
 
 
-.infoCard {
-    background: #01A8A3;
-    color: #F5F4F0;
-    padding: 10px;
-    margin: 8px;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .infoCard:hover {
-    background: #887aa6;
-    color: #F5F4F0;
-  }
-  
-  .infoCard img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 50%;
-  }
-  
-  .infoCard h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-top: 10px;
-  }
-  
-  .infoCard p {
-    font-size: 14px;
-    margin-top: 5px;
-  }
-  
-  .infoCard a {
-    display: inline-block;
-    padding: 10px 15px;
-    background: #176B87;
-    color: #F5EFE7;
-    text-decoration: none;
-    border-radius: 30px;
-    margin-top: 10px;
-    font-weight: bold;
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .infoCard a:hover {
-    background: #F5EFE7;
-    color: #176B87;
-  }
-  
-
-
 
 #whoAreWe{
     background: linear-gradient(45deg, #593F91 , #887aa6);
@@ -199,46 +147,26 @@ color: #176B87;
     padding: 0 20px 0 100px;
     text-align: left;
 }
-/* .timeline > li.timeline-inverted > .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
-.timeline > li.timeline-inverted > .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-} */
+
 .timeline > li:last-child {
     margin-bottom: 0;
 }
 
-.timeline-panel:hovor{
-    background-color: #887aa6;
-    color: #837644;
-    transition: background-color 0.3s, color 0.3s;
-}
-  
 .timeline-panel {
-    background-color: #f9f9f9;
-    padding: 20px;
-    border: 1px solid #ccc;
-    transition: background-color 0.3s; /* Add a smooth transition effect */
+
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+
 }
 
-/* Define the hover styles for the timeline-panel */
+
 .timeline-panel:hover {
-    background-color: #e0e0e0; /* Change the background color on hover */
+    box-shadow: #593F91 0px 0px 50px 15px;
+    background: #593f91a0;
+    color: #176B87;
 }
-
-
-
-
-
-
-
 
 @media (min-width: 768px) {
     .timeline:before {

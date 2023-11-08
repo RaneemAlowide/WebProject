@@ -1,7 +1,5 @@
 /* eventInfo page */
-body{
-    font-family: 'Courier New', Courier, monospace;
-}
+
 
 #eventImageSection{
     float: right;
@@ -9,13 +7,13 @@ body{
 }
 
 /* about us page */
-#fullPage{
+/* #fullPage{
     background-color: #f4ebec;
     color: #F5F4F0;
     padding-top: 1px;
     font-family: 'Courier New', Courier, monospace;
 
-}
+} */
 
 #whoAreWe{
     background: linear-gradient(45deg, #593F91 , #887aa6);
@@ -60,20 +58,6 @@ color: #176B87;
     color: #01A8A3;
 }
 
-/* انقلهم للصفحه المشتركة */
-.section-heading{
-    font-size: 50px;
-    font-weight: bold;
-    color: #F1916D;
-}
-
-.section-subheading{
-    font-size: 1rem;
-    font-style: italic;
-    color:#887aa6;
-    margin-bottom: 4rem;
-}
-/* انقلهم للصفحه المشتركة */
 
 
 x

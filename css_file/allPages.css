@@ -5,12 +5,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+/* page style main */
 #fullPage{
     background-color: #f4ebec;
     color: #F5F4F0;
     padding-top: 1px;
 } 
 
+/* text style */
 .section-heading{
     font-size: 40px;
     font-weight: bold;
@@ -24,6 +26,10 @@
     margin-bottom: 4rem;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> refs/remotes/origin/main
 /* nav style */
 .navbar{
     background-color: #f5d7df;
@@ -33,9 +39,15 @@
 }
 
 .nav-title, .nav-link {
+<<<<<<< HEAD
     
     transition: color 0.3s, text-shadow 0.3s; 
 }
+=======
+    transition: color 0.3s, text-shadow 0.3s; 
+}
+
+>>>>>>> refs/remotes/origin/main
 .nav-title:hover, .nav-link:hover {
     text-shadow: 2px 2px 15px #F5EFE7; 
 }
@@ -66,4 +78,29 @@
 
 
 
+<<<<<<< HEAD
 /* footer style */
+=======
+
+/* footer style */
+#footer {
+    background-color: #473E66
+}
+  
+.Copyright {
+    border-top: 2px solid #ffffff;
+    padding: 20px;
+}
+  
+.container-fluid {
+    margin-bottom: 0;
+
+}
+
+.iconStyle:hover{
+    cursor: pointer;
+    stroke-width: 5;
+    margin: 0;
+    transform: rotate(15deg);
+}
+>>>>>>> refs/remotes/origin/main

@@ -1,7 +1,7 @@
 body{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  background-color: #3e4950;
+  background-color: #f5d7db;
 
  
 }
@@ -9,7 +9,8 @@ body{
 
 .Desgin_all_content {
 
-  background-color: #593f91a7;
+  background: linear-gradient(45deg, #593F91 , #887aa6);
+ border-radius: 30px 30px 30px 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   
@@ -26,6 +27,9 @@ body{
 
 
 }
+#pForintro{
+  color: #f5d7db;
+}
 
 .right_side {
  margin-left: 100px;
@@ -33,12 +37,16 @@ body{
 }
 h1{
   
-  color: #86fffd;
+  color: #ffe186;
   margin-bottom: 70px;
  
 }
+.left_side  p{
+  color: #e7e7e7;
+}
+
 .card{
-  border-radius: 70px;
+  border-radius: 20px;
 
 }
 
@@ -46,17 +54,14 @@ h1{
 
 
 .BigConitiner{
-  margin-top: 100px;
-  background-color: #f8f8f8a7;
-  border-radius: 100px 100px 100px 100px;
-  width: 200px;
-
-
+ margin-left: 170px;
 }
 #nav{
   background-color: aliceblue;
 
 }
+
+
 
 .card:hover{
  
@@ -119,15 +124,15 @@ h3 {
   display: flex;
   -webkit-box-align: center;
   max-width: 900px;
- 
-  margin-left: 200px; 
+  
+
 }
 
 .service {
   background: #fff;
   margin: 20px;
   padding: 20px;
-  border-radius: 4px;
+
   text-align: center;
   -webkit-box-flex: 1;
   flex: 1;
@@ -135,9 +140,12 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   border: 2px solid #e7e7e7;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  transition: all 0.3s ease;
+
+}
+img{
+border-radius: 10px;
+
+
 }
 
 
@@ -146,14 +154,9 @@ h3 {
   margin: 1rem 0;
 }
 
-.service1 i,
-.service1 h4,
-.service1 .cta {
-  color: #42b7ca;
-}
 
 .LEAP:hover {
-  border: 6px solid #0debeb;
+  border: 6px solid #ebd10d;
 }
 
 
@@ -178,16 +181,18 @@ h3 {
 .btn{
   background-color: #01A8A3;
 }
-
-
-
-
-@media all and (max-width:900px) {
+@media all and (max-width:500px) {
   .grid {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+ 
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: none;
     flex-direction: column;
   }
 }
+
+
+
+
+
+

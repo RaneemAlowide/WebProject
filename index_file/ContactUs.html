@@ -10,35 +10,7 @@
 </head>
 <body>
 
-    
-    <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../assets/logo.png" height="60" width="90" ></a>
-    
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav justify-content-center">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../index_file/hackathonat.HTML">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="">Hackathons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../index_file/aboutUs.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+   
 
     
 
@@ -50,27 +22,83 @@
         <section class="left_side" > 
 
             <div class="container">
-                <form>
-                    
-            
-                    <label for="firstname">First Name:</label>
-                    <input type="text" id="firstname" name="firstname" required>
+              <div class="container">
+                <div class="title">Stay in touch with us</div>
+                <div class="content">
+                  <form action="#">
+                    <div class="user-details">
+                      <div class="input-box">
+                        <span class="First Nmae">First name</span>
+                        <input type="text" placeholder="Enter your first name" required>
+                      </div>
+                      <div class="input-box">
+                        <span class="last name">last name</span>
+                        <input type="text" placeholder="Enter your  last name" required>
+                      </div>
+                      
+                     
+                      
+                     
+                      
+                      <div class="input-box">
+                        <span class="mobile">Mobile Number</span>
+                        <input type="tel" placeholder="Enter your mobile number" required>
+                      </div>
+                      
+                      
+                      <div class="input-box">
+                        <span class="dob">Date of Birth</span>
+                        <input type="date" required>
+                      </div>
+                     
+                      
+                  
+                      
+                       
+                       
+                      <div class="input-box">
+                        <span class="details">Enter your message</span>
+                        <textarea id="message" name="message" >
+                          </textarea>
+                      </div>
+                      <div class="input-box">
+                        <span="language">Language of Communication</span>
+                        <select required>
+                          <option value="">Select language</option>
+                          <option value="arabic">Arabic</option>
+                          <option value="english">English</option>
+                          <option value="french">French</option>
+                        </select>
+                        
+                        <div class="gender-details">
+                          <input type="radio" name="gender" id="dot-1">
+                          <input type="radio" name="gender" id="dot-2">
+                          <input type="radio" name="gender" id="dot-3">
+                          <span class="gender-title">Gender</span>
+                          <div class="category">
+                            <label for="dot-1">
+                            <span class="dot one"></span>
+                            <span class="gender">Male</span>
+                          </label>
+                          <label for="dot-2">
+                            <span class="dot two"></span>
+                            <span class="gender">Female</span>
+                          </label>
+                          </div>
+                     
 
-                    <label for="lastname">last Name:</label>
-                    <input type="text" id="lastname" name="lastname" required>
-                   
+
+
+                    <div class="button">
+                      <input type="submit" value="submit">
+                    </div>
+                  </form>
+                </div>
+              </div>
             
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                   
-                    <label for="email">Enter your message:</label> 
-                        <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
-                        <p>
 
             
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+           
 
         </section>
 

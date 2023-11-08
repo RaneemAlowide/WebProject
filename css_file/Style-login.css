@@ -4,7 +4,7 @@
   box-sizing: border-box;
 
   /* edit for font */
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -13,22 +13,24 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: rgb(255, 255, 255);
-  /* background-image: url("/images/746.jpg"); */
+  /* background-image: url("/images/logo.png");
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
+  background-attachment: fixed; */
 
 }
 
 .container {
   position: relative;
-  /* text-align: center; */
+  /* المقاس القديم كذا
   width: 70vw;
-  height: 80vh;
+  height: 80vh; */
+  width: 90vw;
+  height: 89vh;
   /* justify-content: space-around; */
-  background: #fff;
+  background: #f5d7db;
   border-radius: 15px;
-  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 20px 0 rgba(138, 130, 130, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 
   overflow: hidden;
 }
@@ -40,7 +42,7 @@ body {
   left: -50%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(-45deg, #bd83b8, #520852);
+  background: linear-gradient(-50deg, #f5d7db, #bd83b8);
   z-index: 6;
   transform: translate(100%);
   transition: 1s ease-in-out;
@@ -85,7 +87,7 @@ form.sign-up-form {
 
 .title {
   font-size: 35px;
-  color: #df4adf;
+  color: #2e599a;
   margin-bottom: 10px;
 }
 
@@ -94,7 +96,7 @@ form.sign-up-form {
   height: 50px;
   margin: 10px 0;
   background: #f0f0f0;
-  border: 2px solid #df4adf;
+  border: 2px solid #2e599a;
   border-radius: 50px;
   display: flex;
   align-items: center;
@@ -131,15 +133,15 @@ form.sign-up-form {
   font-size: 18px;
   font-weight: 600;
   color: #fff;
-  background: #854f85;
+  background: #f1916d;
 
-  margin: 10px 0;
+  margin: 14px 0;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .btn:hover {
-  background: #d6d6d6;
+  background: #ecc2c2;
 }
 
 .social-text {
@@ -156,19 +158,19 @@ form.sign-up-form {
 .social-icon {
   height: 45px;
   width: 45px;
-  color: rgb(171, 143, 207);
+  color: rgb(107, 71, 153);
   display: flex;
   text-decoration: none;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(171, 143, 207);
+  border: 1px solid rgb(107, 71, 153);
   border-radius: 50px;
   margin: 0 5px;
 }
 
 .social-icon:hover {
-  color: #df4adf;
-  border-color: #df4adf;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .panels-container {
@@ -207,18 +209,20 @@ form.sign-up-form {
 }
 
 .panel h3 {
-  font-size: 24px;
+  font-size: 26px;
   font-weight: 600;
 }
 
 .panel p {
-  font-size: 15px;
+  font-size: 19px;
+  color: rgb(113, 100, 128);
+
   padding: 10px 0;
 }
 
 .image {
   width: 100%;
-  transition: 1.s ease-in-out;
+  transition: 1s ease-in-out;
   transition-delay: 0.4s;
 }
 

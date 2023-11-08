@@ -27,12 +27,14 @@
 .footer .social-media a{
   padding: 1em;
 }
-  .social-media a{
+.social-media a{
     font-size: 1.5em;
     padding-right: 30px;
     color: black;
-
-}
+  }
+  .social-media:hover{
+    box-shadow: 0 0px 16px  #D8C4B6;
+  }
 
 #fullPage{
   background-color: #f4ebec;
@@ -40,7 +42,6 @@
   padding-top: 1px;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
-
 }
 
 #Vision{
@@ -50,8 +51,8 @@
   align-items: center;
   padding: 40px;
   margin: 40px;
-
 }
+
 #Vision p{
   font-size: 20px;
   font-weight: 600;
@@ -59,6 +60,7 @@
   justify-content: center;
   letter-spacing: 1px;
 }
+
 #Vision h3{
   font-size: 50px;
   font-weight: bold;
@@ -71,10 +73,11 @@
   margin: 40px;
   color: #f5d7db;
   }
-.img-fluid{
+  .img-fluid{
   width: 300px;
   height: 200px;
 }
+
 .button {
   background-color: #593F91; 
   text-align: center;
@@ -103,23 +106,6 @@
     margin: 70px;
   }
 
-.col-md-8{
-  border: 1px solid black;
-  padding: 10px;
- }
-.col-md-8 .image{
-  margin-left: 500px;
-}
-.col-md-8 p{
-  margin-top: 30px;
-}
-.col-md-4 p{
-  border: 1px solid black;
-  padding: 50px;
-  margin-top: 100px;
-  
-  
-}
   .main-section{
     border: 1px solid black;
     margin: 10px 0px 0px 0px;
@@ -127,38 +113,25 @@
     padding: 130px;
     background-color: #3E4950;
   }
-  #btn{
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 70px;
-    border-radius: 10px;
-    transform: scale(1.1);
-    
-}
- #btn:hover{
-  box-shadow: 2px 2px 5px rgb(134, 133, 133);
-  
-  
-}
+ 
+
   .main-section p{
     text-align: center;
     color: #ffffff;
     width: 100%;
 
   }
+  
   .bi {
     color: #ffffff;
   }
+
  .main-content{
   font-size: 20px;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   margin-top: 10px;
   margin-bottom: 30px;
  }
-
- 
   .content{
     margin: 10px 0px 0px 0px;
     text-align: center;
@@ -167,44 +140,43 @@
   }
   
   .main-section button{
-    height:"50px";
-     width:"100px";
+  
      font-size: 15px;
      text-align: center;
   
   }
- 
-  #main-idea img{
+    #main-idea img{
     margin-top: 150px;
     border: 2px solid black;
     
-    
-  }
+    }
+
   #main-idea h3{
     font-weight: 800;
     color: #D8C4B6;
-   font-weight: bold;
-   background: linear-gradient(45deg, #2664a2 , #887aa6);
-   border-radius: 10px;
-   justify-content: center;
-   align-items: center;
-   text-align: center;
-   padding: 30px;
-   margin: 40px;
-   
+    font-weight: bold;
+    background: linear-gradient(45deg, #2664a2 , #887aa6);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 120px;
   }
+
   #main-idea p{
-    margin-top: 10px;
-    padding: 130px;
+    margin: 50px 0px 50px 0px;
+    padding: 80px;
     color: #F1916D;
     font-weight: 700;
     font-size: 19px;
-
   }
   .hackathons{
-    /*margin: 15px;*/
     padding: 100px;
     background-color: #f5d7db;
+  }
+  .card-title{
+    font-weight: bold;
   }
   .card{
     background-color: white;
@@ -212,23 +184,17 @@
     padding: 5px;
     border-radius: 10px;
     margin: 15px 0px 20px 0px;
-    
-  
-}
-.card:hover{
+  }
+ .card:hover{
   transform: scale(1.1);
   transition: 0.5s ease;
-
 }
-
-    footer {
-      background: linear-gradient(45deg, #593F91 , #887aa6);
-      padding: 20px;
-      text-align: center;
-      justify-content: center;
-      
-    }
-    
+  footer {
+    background: linear-gradient(45deg, #593F91 , #887aa6);
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+   }
     footer .col-lg-6 {
       display: inline-block;
       text-align: left;
@@ -244,9 +210,7 @@
     text-align: right;
     padding: 20px;
   }
-  .social-media:hover{
-    box-shadow: 0 0px 16px  #D8C4B6;
-  }
+  
   @media screen and (max-width: 900px) {
     .container {
       padding-top: 10px;

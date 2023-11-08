@@ -7,14 +7,6 @@
 }
 
 /* about us page */
-/* #fullPage{
-    background-color: #f4ebec;
-    color: #F5F4F0;
-    padding-top: 1px;
-    font-family: 'Courier New', Courier, monospace;
-
-} */
-
 #whoAreWe{
     background: linear-gradient(45deg, #593F91 , #887aa6);
     border-radius: 10px;
@@ -53,18 +45,22 @@ color: #176B87;
     list-style: none;
 }
 
-.timeline-heading {
+.timeline-heading h4 {
     margin-top: 0;
     color: #01A8A3;
+    font-weight: bold;
 }
 
+.subheading{
+  font-weight: bold;
+}
 
-
-x
 .subtext , .subheading{
-    color: #ffffff;
+    color: #05142E;
     line-height: 1.75;
+    font-size: 15px;
 }
+
 
 /* timeline */
 .timeline:before {
@@ -75,7 +71,7 @@ x
     width: 2px;
     margin-left: -1.5px;
     content: "";
-    background-color: #e9ecef;
+    background-color: #473E66;
 }
 .timeline > li {
     position: relative;
@@ -112,13 +108,16 @@ x
     z-index: 100;
     width: 80px;
     height: 80px;
-    padding-top: 10px;
-    text-align: center;
-    color: #2664A6;
-    border: 4px solid #2664A6;
+    padding-top: 15px;
+    border: 4px solid #473E66;
     border-radius: 100%;
     background-color: #e9ecef;
 }
+.timeline-image:hover {
+    box-shadow: #593F91 0px 0px 50px 15px;
+    background: #593f9188;
+    color: white;
+} 
 
 
 /* inverted timeline */
@@ -139,11 +138,7 @@ x
     margin-top: 20px;
 
 }
-.timeline-panel:hover {
-    box-shadow: #593F91 0px 0px 50px 15px;
-    background: #593f91a0;
-    color: #176B87;
-}
+
 .portfolio-link {
     color: #01A8A3;
     text-decoration: none;
@@ -155,6 +150,7 @@ x
     border-style: outset;
     background-color: #01A8A3;
     color: white;
+    box-shadow: #593F91 0px 0px 50px 5px;
   }
   .portfolio-link:active{
     border-style: outset;

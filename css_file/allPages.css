@@ -33,9 +33,9 @@
 }
 
 .nav-title, .nav-link {
-    
     transition: color 0.3s, text-shadow 0.3s; 
 }
+
 .nav-title:hover, .nav-link:hover {
     text-shadow: 2px 2px 15px #F5EFE7; 
 }
@@ -67,3 +67,25 @@
 
 
 /* footer style */
+
+/* styles.css */
+#footer {
+    background-color: #473E66
+}
+  
+.Copyright {
+    border-top: 2px solid #ffffff;
+    padding: 20px;
+}
+  
+.container-fluid {
+    margin-bottom: 0;
+
+}
+
+.iconStyle:hover{
+    cursor: pointer;
+    stroke-width: 5;
+    margin: 0;
+    transform: rotate(15deg);
+}

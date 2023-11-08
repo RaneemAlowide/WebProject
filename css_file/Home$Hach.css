@@ -1,5 +1,6 @@
 * {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family: 'Courier New', Courier, monospace;
    
     
   }
@@ -34,10 +35,11 @@
 }
 
 #fullPage{
-  background-color: #f5d7db;
+  background-color: #f4ebec;
   color: #F5F4F0;
   padding-top: 1px;
   font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 
 }
 
@@ -77,15 +79,13 @@
   background-color: #593F91; 
   text-align: center;
   color: #F5EFE7; 
-  padding: 7px 20px;
-  border-radius: 10px;
+  padding: 10px 25px;
+  border-radius: 50px;
   border: 2px groove #176B87;
   text-decoration: none;
   transition: background-color 0.3s, color 0.3s; 
-  margin: 230px;
-  
-  
- }
+  margin: 200px;
+  }
   .button:hover {
   background-color: #F5EFE7; 
   color: #176B87; 
@@ -99,9 +99,6 @@
     box-shadow: 2px 2px 5px rgb(134, 133, 133);
   }
 
-  .button{
-    margin-top: 100px;
-  }
   .button-text{
     margin: 70px;
   }
@@ -199,12 +196,15 @@
   #main-idea p{
     margin-top: 10px;
     padding: 130px;
+    color: #F1916D;
+    font-weight: 700;
+    font-size: 19px;
 
   }
   .hackathons{
     margin: 15px;
     padding: 100px;
-    background-color: #3E4950;
+    background-color: #f5d7db;
   }
   .card{
     background-color: white;

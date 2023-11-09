@@ -3,124 +3,158 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tech gather</title>
     <link rel="stylesheet" href="../css_file/Home$Hach.css">
+    <link rel="stylesheet" href="../css_file/allPages.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    </head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
     
-    <header>
+   <header>
 
-      <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../assets/logo.png" height="60" width="90" ></a>
-
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav id="nav" class="navbar navbar-expand-lg navbarScroll navbar-light">
+      <div class="container">
+          <a class="navbar-brand" href="../index_file/Home.html#Vision"><img src="../assets/logo.png" height="60" width="90" alt="logo image" ></a>
+          <button class="navbar-toggler collapsed" type="button" 
+          data-bs-toggle="collapse" data-bs-target="#miniNav" aria-controls="miniNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon" ></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Event.HTML">Events</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Hackathons.html">Hackathons</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="aboutUs.html">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ContactUs.html">Contact Us</a>
-              </li>
-            </ul>
+          <div class="collapse navbar-collapse " id="miniNav">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index_file/Event.HTML">Events</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index_file/Hackathons.html">Hackathons</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index_file/aboutUs.html">AboutUs</a>
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index_file/">ContactUs</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="../assets/icon.png" height="50" width="50" alt="icon image">
+                      </a> 
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Login/SignUp</a></li>
+                      </ul>
+                    </li>
+              </ul> 
           </div>
-        </div>
-      </nav>
-     
-    </header>
+      </div>
+  </nav>
+</header>
 
     
-    <section id="fullPage">
-      <section id="Vision">
-          <div class="row">
-              <!-- left Column -->
-              <div class="col-lg-6 d-flex align-items-center">
-                  <img src="../assets/image.jpg" alt="image" class="img-fluid">
-              </div>
-  
-              <!-- right Column -->
-              <div class="col-lg-6 d-flex align-items-center">
-                  <div class="intro"> 
-                      <h3>رؤية السعودية 2030</h3>
-                      <p>«دائمًا ما تبدأ قصص النجاح برؤية، وأنجح الرؤى هي تلك التي تُبنى على مكامن القوة» <br>
-                        «رؤيتنا لبلادنا التي نريدها، دولة قوية مزدهرة تتسع للجميع، دستورها الإسلام، ومنهجها الوسطية، تتقبل الآخر، سنرحب بالكفاءات من كل مكان، وسيلقى كل احترام من جاء ليشاركنا البناء والنجاح» <br>
-                          «لن ننظر إلى ما قد فقدناه أو نفقده، بالأمس أو اليوم، بل علينا أن نتوجه دومًا إلى الأمام» </p>
-                      <a class="button" href="#teamInfo">
-                          <span class="button-text" >Get started</span>
-                      </a> 
-                       
-                  </div>
-                  
-              </div>
-             
+   <main id="fullPage">
 
-          </div>
-          <a href="#main-idea"><img src="../assets/scroll.png" class="scroll" width="50" height="50" alt="scroll"></i></a>  
-        
-         
-      </section>
-
-
-    <section id="main-idea">
-          <div class="container">
-            <div class="row" >
-              <div class="logo col-md-6">
-                <img  src="../assets/logo.png" width="480px" height="350px" alt="logo for our website">
-              </div>
-              <div class="col-md-6">
-                <div class="content">
-                <h3>من نحن </h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus unde tempora fuga iusto,
-                   ipsam ad voluptate sint. Quia cupiditate voluptates sequi. Praesentium ex atque at, placeat voluptatem eligendi.
-                    Commodi, vitae!</p>
-                  </div>
-
-              </div>
-        <div>
-
-        </div>
-        
+    <section class="vision">
+      <div class="main">
+        <div id="col-lg-6">
+        <img src="../assets/image.jpg" alt="image" class="img-fluid">
       </div>
-        
-        
-
+        <div class="vision-text">
+          <h1>Saudi Vision <span>2030</span></h1>
+          <p>
+            <ul>
+              <li>«دائمًا ما تبدأ قصص النجاح برؤية، وأنجح الرؤى هي تلك التي تُبنى على مكامن القوة» </li> 
+              <li>«رؤيتنا لبلادنا التي نريدها، دولة قوية مزدهرة تتسع للجميع، دستورها الإسلام، ومنهجها الوسطية، تتقبل الآخر، سنرحب بالكفاءات من كل مكان، وسيلقى كل احترام من جاء ليشاركنا البناء والنجاح»</li> 
+              <li> «لن ننظر إلى ما قد فقدناه أو نفقده، بالأمس أو اليوم، بل علينا أن نتوجه دومًا إلى الأمام» </li> 
+            </ul>
+             <a href="#main-idea">
+              <button type="submit" class="btnAllPageButton">Read more</button>
+            </a>
+        </div>
+    </div>
+    
     </section>
-    </section>
+  
 
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <h1>Follow us on</h1>
-            <div class="social-media ">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-             </div>
+<section id="main-idea">
+      <div class="heading">
+        <h1>who are we</h1>
+      </div>
+      <div class="heading-container">
+        <section class="about">
+          <div class="logo-image">
+            <img  src="../assets/logo.png" alt="logo for our website">
           </div>
-          <div class="col-md-6">
-            <img class="Vision-image" src="../assets/vision-2030.jfif" alt="A picture of Vision 2030" >
-            
+          <div class="about-content">
+            <p> we are a group of students seeking to develop the pillars of the Saudi vision 2030 <br>
+            and building a vibrant society that seeks to increase citizens, <br>
+             pride in their unique cultural identity and provide well-being through effective social systems. <br>
+              We also seek to achieve Saudi Vision 2030 in an ambitious nation committed to responsibility. <br>
+               Therefore, we have created a website aimed at enhancing communication and cooperation,
+             disseminating knowledge, and providing resources to achieve Saudi Vision 2030</p>
           </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        </section>
+      </div>
+    </section>
+</main>
+    
+
+      
+      <footer id="footer" class="text-center text-white">
+        <!-- Grid container -->
+        <div class="container-fluid p-4">
+          <!-- Section: Social media -->
+          <div class="mb-4">
+            <!-- Twitter -->
+            <a class="btn btn-floating m-2 iconStyle" href="../assets/danaLogo.png" role="button">
+              <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/twitterx--v2.png" alt="twitterx--v2">
+            </a>
+            <!-- Instagram -->
+            <a class="btn btn-floating m-2 iconStyle" href="../assets/danaLogo.png" role="button">
+              <img width="30" height="30" src="https://img.icons8.com/ios/50/instagram-new--v1.png" alt="instagram-new--v1">
+            </a>
+    
+            <!-- Email -->
+            <a class="btn btn-floating m-2 iconStyle" href="../assets/danaLogo.png" role="button">
+              <img width="30" height="30" src="https://img.icons8.com/ios/50/new-post--v1.png" alt="new-post--v1">
+            </a>
+    
+            <a class="btn btn-floating m-2 iconStyle" href="../assets/danaLogo.png" role="button">
+              <img width="30" height="30" src="https://img.icons8.com/ios/50/phone-disconnected.png" alt="phone-disconnected">
+            </a>
+          </div>
+    
+          <!-- Section: Form -->
+          <div class="mb-4">
+            <form action="#">
+              <!--Grid row-->
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-auto">
+                  <p class="pt-2">
+                    <strong>Sign up for our newsletter</strong>
+                  </p>
+                </div>
+                <!--Grid column-->
+    
+                <!--Grid column-->
+                <div class="col-12 col-md-5">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" placeholder="Email" >
+                  </div>
+                </div>
+                <div class="col-12 col-md-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">
+                    Subscribe
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        <!-- Copyright -->
+          <div class="Copyright">
+            <p>© 2023 Copyright: Tech Gather</p>
+          </div>
+        </div>
+      </footer>
+ <!-- </section>-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,22 +1,21 @@
 
-form{
+.form-For-user{
   
   color: #f1916d;
   
  
 }
 .Desgin_all_content {
+  margin: 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-
-  background: linear-gradient(45deg, #593F91 , #887aa6);
- 
-}
+  background: linear-gradient(45deg, #593F91 , #887aa6);}
 
 
 
 .right_side {
-  margin-top: 70px;
+  margin-top: 80px;
+  margin-left: 50px;
 
   
    
@@ -29,17 +28,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-l
 
-
-
-
-
-body{
- 
-  display: flex;
-
-}
 .container1{
   max-width: 700px;
   width: 100%;
@@ -49,6 +38,7 @@ body{
   box-shadow: 0 5px 10px rgba(0,0,0,0.15);
 }
 .container1 .title{
+
   font-size: 25px;
   font-weight: 500;
 
@@ -61,20 +51,19 @@ body{
   height: 3px;
   width: 30px;
   border-radius: 5px;
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
-}
-.content form .user-details{
+  background: linear-gradient(45deg, #593F91 , #887aa6);}
+.content .form-For-user .userInfo{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 20px 0 12px 0;
 }
-form .user-details .input-box{
+.form-For-user .userInfo .input-box{
   margin-bottom: 15px;
   width: calc(100% / 2 - 20px);
 }
 
-.user-details .input-box input{
+.userInfo .input-box input{
   height: 45px;
   width: 100%;
   outline: none;
@@ -85,15 +74,16 @@ form .user-details .input-box{
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-.user-details .input-box input:focus,
-.user-details .input-box input:valid{
+.userInfo.input-box input:focus,
+.userInfo .input-box input:valid
+{
   border-color: #9b59b6;
 }
- form .gender-details .gender-title{
+.form-For-user .gender-details .gender-title{
   font-size: 20px;
   font-weight: 500;
  }
- form .category{
+.category{
    display: flex;
    width: 80%;
    margin: 14px 0 ;
@@ -130,14 +120,11 @@ form .user-details .input-box{
   
   height: 30px;
   width: 200px;
- 
   margin-right: 10px;
   background: #d9d9d9;
   border: 5px solid transparent;
- 
-
- 
  }
+
  form .button input{
    height: 100%;
    width: 100%;
@@ -151,31 +138,112 @@ form .user-details .input-box{
    transition: all 0.3s ease;
    background: linear-gradient(135deg, #71b7e6, #9b59b6);
  }
- form .button input:hover{
-  /* transform: scale(0.99); */
-  background: linear-gradient(-135deg, #71b7e6, #9b59b6);
+
+/* Media  */
+
+@media (max-width: 576px) {
+
+  .Desgin_all_content {
+    display: grid;
+    grid-template-columns: 1fr;
   }
- @media(max-width: 584px){
- .container{
-  max-width: 100%;
-}
-form .user-details .input-box{
-    margin-bottom: 15px;
+  .right_side{
+    display: none;
+  }
+  
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
     width: 100%;
   }
-  form .category{
-    width: 100%;
+  
+  .userInfo .input-box input {
+    font-size: 14px;
   }
-  .content form .user-details{
-    max-height: 300px;
-    overflow-y: scroll;
-  }
-  .user-details::-webkit-scrollbar{
-    width: 5px;
-  }
-  }
-  @media(max-width: 459px){
-  .container .content .category{
+  
+  .form-For-user .category {
     flex-direction: column;
+    align-items: flex-start;
   }
+  
+  select {
+    width: 100%;
+  }
+
+  
 }
+
+@media (min-width: 577px) and (max-width: 768px) {
+ 
+
+  .Desgin_all_content {
+    display: grid;
+    grid-template-columns: 1fr;
+     }
+
+     .right_side{
+      display: none;
+    }
+  .container1 .title {
+    font-size: 10px;
+  }
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
+    width: 100%;
+  }
+  
+  .userInfo .input-box input {
+    font-size: 14px;
+  }
+  
+  .form-For-user .category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+ 
+ 
+  .container1 .title {
+    font-size: 10px;
+  }
+  .container1 .title {
+    font-size: 20px;
+  }
+  
+  .form-For-user .userInfo .input-box {
+    width: 100%;
+  }
+  
+  .userInfo .input-box input {
+    font-size: 14px;
+  }
+  
+  .form-For-user .category {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+ 
+
+    
+
+    .imageforrightside{
+      width: 400px;
+      margin-top: 100px;
+    
+    }
+
+  
+ 
+}
+
+

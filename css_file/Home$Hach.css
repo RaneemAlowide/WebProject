@@ -47,8 +47,10 @@
   margin-bottom: 20px;
   font-weight: bold;
 }
-span{
+ span{
   color: #F1916D;
+  text-decoration: none;
+  
 }
 .vision-text p{
   line-height: 16px;

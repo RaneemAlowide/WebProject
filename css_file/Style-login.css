@@ -2,8 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  /* edit for font */
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -13,11 +11,6 @@ body {
   justify-content: center;
   min-height: 100vh;
   background: rgb(255, 255, 255);
-  /* background-image: url("/images/logo.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed; */
-
 }
 
 .container {
@@ -29,7 +22,7 @@ body {
   height: 89vh;
   /* justify-content: space-around; */
   background: #f5d7db;
-  border-radius: 15px;
+  border-radius: 18px;
   box-shadow: 0 4px 20px 0 rgba(138, 130, 130, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 
   overflow: hidden;
@@ -42,7 +35,9 @@ body {
   left: -50%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(-50deg, #f5d7db, #bd83b8);
+  background: linear-gradient(-50deg, #f5d7db, #8060c6);
+  /* background: linear-gradient(45deg, #593F91 , #887aa6); */
+
   z-index: 6;
   transform: translate(100%);
   transition: 1s ease-in-out;
@@ -95,7 +90,7 @@ form.sign-up-form {
   width: 100%;
   height: 50px;
   margin: 10px 0;
-  background: #f0f0f0;
+  background: #ffffffe1;
   border: 2px solid #2e599a;
   border-radius: 50px;
   display: flex;
@@ -117,6 +112,21 @@ form.sign-up-form {
 
 
 }
+
+.remember-forget a,
+.remember-forget label {
+  margin: 9px 0;
+  text-decoration: none;
+  color: rgb(141, 145, 139);
+}
+
+.remember-forget a:hover {
+  color: rgb(99, 104, 66);
+  text-decoration: underline;
+}
+
+
+
 
 .input-box i {
   flex: 1;
@@ -146,7 +156,9 @@ form.sign-up-form {
 
 .social-text {
   margin: 10px 0;
-  font-size: 16px;
+  font-size: 15px;
+  color: rgb(141, 145, 139);
+  font-weight: bold;
 
 }
 
@@ -220,6 +232,8 @@ form.sign-up-form {
   padding: 10px 0;
 }
 
+
+
 .image {
   width: 100%;
   transition: 1s ease-in-out;
@@ -236,39 +250,7 @@ form.sign-up-form {
   transform: translateX(0);
 }
 
-/* Animation */
-
-.container.sign-up-mode::before {
-  transform: translateX(0);
-}
-
-.container.sign-up-mode .right-panel .image,
-.container.sign-up-mode .right-panel .content {
-  transform: translateX(200%);
-
-}
-
-.container.sign-up-mode .left-panel .image,
-.container.sign-up-mode .left-panel .content {
-  transform: translateX(0);
-
-}
-
-.container.sign-up-mode form.log-in-form {
-  opacity: 0;
-}
-
-.container.sign-up-mode form.sign-up-form {
-  opacity: 1;
-}
-
-.container.sign-up-mode .right-panel {
-  pointer-events: none;
-}
-
-.container.sign-up-mode .left-panel {
-  pointer-events: all;
-}
+/* responsive */
 
 @media(max-width:779px) {
   .container {

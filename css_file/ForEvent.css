@@ -172,17 +172,16 @@ border-radius: 10px;
 
     
  
-
 @media (min-width: 576px) and (max-width: 768px) {
   .Desgin_all_content{
     display: grid;
     grid-template-columns: 1fr;
     font-size: 100px;
-   
+
   }
   .right_side {
    display: none;
-    
+
    }
 
    .left_side{
@@ -196,8 +195,6 @@ border-radius: 10px;
   }
 
    @media (max-width: 992px){
-  
-   
     .grid{
       display: grid;
       grid-template-columns: 1fr;
@@ -205,17 +202,33 @@ border-radius: 10px;
       width: 100px;
 
      }
-
-
-
-  
-
-  
-
-    
  
 }
 
+
+
+
+@media (min-width: 992px) {
+  .Desgin_all_content{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 100px;
+
+  }
+  .right_side {
+   display: none;
+
+   }
+
+   .left_side{
+    margin-bottom: 100px;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 25px;
+   }
+  }
 
 
 

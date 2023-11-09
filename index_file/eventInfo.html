@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tech gather</title>
     <link rel="icon" type="image/x-icon" href="../assets/logo.png">
-    <link rel="stylesheet" href="../css_file/aboutUs.css">
+    <link rel="stylesheet" href="../css_file/eventinfoStyle.css">
     <link rel="stylesheet" href="../css_file/allPages.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
@@ -43,52 +43,90 @@
           </div>
       </div>
      </nav>
-      <main id="fullPage">
-        <section id="eventImageSection">
-          <img src="../assets/leap.png" alt="event" class="img-fluid" height="500" width="500">
-        </section>
-  
-        <section id="eventDataSection">
-          <div class="eventContainer">
-            <div class="row">
-              <div class="col-md-6">
-                <h3 class="section-heading">Leap</h3>
-                <p class="section-subheading">Leap is a 36-hour hackathon where students from all over the world come together to build innovative solutions to real-world problems. Leap is a platform for students to showcase their talent and skills to the world. Leap is a platform for students to showcase their talent and skills to the world. Leap is a platform for students to showcase their talent and skills to the world.</p>
-              </div>
-              <div class="col-md-6">
-                <h3 class="section-heading">Event Details</h3>
-                <div class="section-subheading">
-                  <p><b>Event Name:</b>Leap</p>
-                  <p>Event Date: 4 - 7 March 2024</p>
-                  <p>Event Time: TBA</p>
-                  <p>Event Venue: Riyadh Exhibition and Convention Center, Malham, Saudi Arabia</p>
-                  <p>Event Type: Exibition</p>
-                  <p>Event Category: Technical</p>
-                  <p>Event Fees: Free</p>
-                </div>
-              </div>
-              <div>
-                <button type="button" class="btn btn-primary">Register now !!</button>
-              </div>
-            </div>
+     <main id="fullPage">
+      <section id="eventImageSection" class=" col-mg-9 eventContainer">
+          <img src="../assets/leap.png" alt="event" class="eventimage" height="400" width="400">
+          <div class="text-center">
+              <button type="button" class="Register-btn">Register now !!</button>
           </div>
-        </section>
-  
-        <section id="QuestionsSection">
-          <div class="container">
+    </section>
+
+      <section id="eventDataSection" class="colorful-section">
+        <div class="eventContainer">
             <div class="row">
-              <div class="col-md-6">
-                <h1>Questions?</h1>
-                <p>Feel free to contact us.</p>
-                <p>
-              </div>
+                <div class="col-lg-9 col-md-9 section-mainTitle">
+                    <h3 class="section-heading">Leap</h3>
+                    <p class="section-subheading">Leap is a 36-hour hackathon where students from all over the world come together to build innovative solutions to real-world problems. Leap is a platform for students to showcase their talent and skills to the world. Leap is a platform for students to showcase their talent and skills to the world. Leap is a platform for students to showcase their talent and skills to the world.</p>
+                </div>
+                <div class="col-lg-9 col-md-9 section-details">
+                    <h3 class="section-heading">Event Details</h3>
+                    <div class="section-subheading">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <p><strong>Event Name:</strong> Leap</p>
+                                <p><strong>Date:</strong> 4 - 7 March 2024</p>
+                                <p><strong>Event Time:</strong> TBA</p> 
+                                <p><strong>Event Type:</strong> Exhibition</p>
+                                <p><strong>Event Category:</strong> Technical</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Event Venue:</strong> Riyadh Exhibition and Convention Center, Malham, Saudi Arabia</p>
+                                <p><strong>Event Fees:</strong> Free</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>        
-        </section>
-      </main>
+            <div class="d-flex justify-content-center align-items-center scroll">
+              <a href="#card-section"><img src="../assets/scroll.png" alt="scroll" class="img-fluid" height="70" width="70"></a>
+          </div>
+        </div>
+    </section>
+
+    <section id="card-section" class="justify-content-center flex-column align-items-center card-container">
+      <h4 class="section-heading">Discover LEAP’s Content </h4>
+        <div class="row justify-content-center">
+          <div class="flip-card col-lg-6 col-md-12 mb-4">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <img  src="../assets/card1.png" alt="Avatar" style="width:100%;height: 100%;">
+                  </div>
+                  <div class="flip-card-back">
+                      <h5 class="subheading">Fail fast: It’s a strategy for success</h5>
+                      <p class="subtext">At #LEAP23, Isabelle Kumar (News Anchor and Presenter) asked Steven Bartlett (Founder of Social Chain, Podcaster, and TV Personality) this question: “how do you feel about uncertainty?”</p>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="flip-card col-lg-6 col-md-12 mb-4">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <img src="../assets/card2.png" alt="Avatar" style="width:100%;height: 100%;">
+                  </div>
+                  <div class="flip-card-back">
+                      <h5 class="subheading">The unlikely astronaut (and the challenges that made her)</h5>
+                      <p class="subtext">Susan Kilrain (NASA Astronaut, Navy Test Pilot) came to #LEAP23 to speak about her experiences in space – and about her journey from being a little girl in an under-privileged American family, to becoming the</p>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="flip-card col-lg-6 col-md-12 mb-4">
+              <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                      <img src="../assets/card3.png" alt="Avatar" style="width:100%;height: 100%;">
+                  </div>
+                  <div class="flip-card-back">
+                      <h5 class="subheading">Mentorship over money: A key to entrepreneurial success</h5>
+                      <p class="subtext">Imagine you’re starting out on your journey as an entrepreneur. You’re excited. You’re overflowing with ideas, with this vision of the future that you can help to create – and you’re being propelled forwards by enthusiasm and passion.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+    </main>
 
       <footer id="footer" class="text-center text-white">
-        <!-- Grid container -->
         <div class="container-fluid p-4">
           <!-- Section: Social media -->
           <div class="mb-4">
@@ -114,16 +152,13 @@
           <!-- Section: Form -->
           <div class="mb-4">
             <form action="">
-              <!--Grid row-->
+
               <div class="row d-flex justify-content-center align-items-center">
                 <div class="col-12 col-md-auto">
                   <p class="pt-2">
                     <strong>Sign up for our newsletter</strong>
                   </p>
                 </div>
-                <!--Grid column-->
-    
-                <!--Grid column-->
                 <div class="col-12 col-md-5">
                   <div class="form-outline form-white mb-4">
                     <input type="email" id="form5Example2" class="form-control" placeholder="Email" />

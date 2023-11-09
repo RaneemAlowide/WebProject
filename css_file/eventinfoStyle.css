@@ -151,7 +151,7 @@
 @media (min-width: 576px) and (max-width: 768px) {
   .eventContainer {
     margin: 10px;
-    padding: px;
+    padding: 0px;
   }
   .eventimage {
     margin-left: 20px;

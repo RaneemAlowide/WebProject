@@ -166,7 +166,7 @@
     margin: 2px;
     width: 100%;
   }
-  .eventContainer {
+  #eventImageSection{
     margin: 50px;
     padding: 10px;
   }
@@ -188,4 +188,5 @@
     width: 500px;
   }
 }
+
 

@@ -24,15 +24,13 @@
   background-color: #473e66;
 }
 
-#col-lg-6{
-  padding: 40px;
-}
 .vision-text{
   width: 550px;
 }
 .vision img{
   width: 320px;
   height: 390px;
+  border-radius: 15px;
  
 }
 .main{
@@ -59,52 +57,24 @@ span{
   
 
 }
-#btn{
-  background-color: #F1916D;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: 600;
-  padding: 13px 30px;
+.btnAllPageButton {
+  width: 150px;
+  height: 50px;
+  border: none;
   border-radius: 50px;
-  transition: 0.4s;
-}
-#btn:hover{
-  background: transparent;
-  background-color: #F5F4F0;
-  border: 2px solid #F1916D;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #f1916d;
+   margin: 14px 0;
+  text-transform: uppercase;
   cursor: pointer;
 }
 
-@media (max-width: 768px) {
-  .vision {
-    padding: 20px;
-    margin: 30px;
-  }
-  .vision-text {
-    width: 100%;
-  }
-  .vision img {
-    width: 100%;
-    margin: 20px;
-  }
-  .main {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .vision-text h1 {
-    font-size: 30px;
-    margin-bottom: 15px;
-  }
-  .vision-text p {
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 15px;
-  }
-  #btn {
-    font-size: 14px;
-    padding: 10px 20px;
-  }
+.btnAllPageButton:hover {
+  background: #ecc2c2;
 }
+
 
   .button-text{
     margin: 70px;
@@ -112,8 +82,8 @@ span{
 
   #main-idea{
     padding: 10px 20px;
-    margin-left: 190px;
-    margin-right: 300px;
+    margin-left: 300px;
+    margin-right: 190px;
   }
   .heading{
     margin: 40px auto;
@@ -125,7 +95,7 @@ span{
     font-size: 40px;
     font-weight: bold;
     color: #F1916D;
-  padding-left: 610px;
+    padding-right: 200px;
 }
 
  .heading-container{
@@ -166,92 +136,378 @@ span{
   color:#887aa6;
   margin-bottom: 4rem;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 10px rgba(146, 143, 143, 0.756); 
+  transition: color 0.3s, text-shadow 0.3s; 
+  width: 500px;
 }
-@media screen and (max-width: 768px) {
-  .heading{
-    padding: 0px 20px;
-  }
-  .heading h1{
-    font-size: 36px;
+.about-content:hover p{
+  transform: scale(1.1);
 }
+
+
+span{
+color: #F1916D;
+}
+.vision-text p{
+line-height: 16px;
+font-size: 18px;
+margin-bottom: 25px;
+}
+.btnAllPageButton {
+width: 150px;
+height: 50px;
+border: none;
+border-radius: 50px;
+font-size: 18px;
+font-weight: 600;
+color: #fff;
+background: #f1916d;
+ margin: 14px 0;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.btnAllPageButton:hover {
+background: #ecc2c2;
+}
+
+
+.button-text{
+  margin: 70px;
+}
+
+#main-idea{
+  padding: 10px 20px;
+  margin-left: 190px;
+  margin-right: 300px;
+}
+.heading{
+  margin: 40px auto;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+.heading h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: #F1916D;
+padding-left: 610px;
+}
+
 .heading-container{
-  padding: 0px;
+width: 90%;
+margin: 0 auto;
+padding: 10px 20px;
+
 }
 .about{
-  padding: 20px;
-  flex-direction: column;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
 }
 .logo-image{
-  margin-right: 0px;
-  margin-bottom: 20px;
+flex: 1;
+margin-right: 40px;
+overflow: hidden;  
+}
+.logo-image img{
+max-width: 60%;
+height: 250px;
+display: block;
+transition: 0.5s ease;
+margin-top: 10px;
+margin-bottom: 110px;
+}
+.logo-image:hover img{
+transform: scale(1.1);
+}
+.about-content{
+flex: 0.5;
+
 }
 .about-content p{
-  padding: 0px;
-  font-size: 16px;
+font-size: 1rem;
+font-style: italic;
+color:#887aa6;
+margin-bottom: 4rem;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-  
+
+* {
+  font-family: 'Courier New', Courier, monospace;
 }
-@media (max-width: 575px) {
-  .vision {
-    padding: 30px;
-    margin: 40px;
-  }
-  .vision-text {
-    width: 100%;
-  }
-  .vision img {
-    width: 80%;
-  }
-  .main {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .vision-text h1 {
-    font-size: 40px;
-    margin-bottom: 15px;
-  }
-  .vision-text p {
-    font-size: 16px;
-    line-height: 22px;
-    margin-bottom: 15px;
-  }
-  #btn {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 30px;
-  }
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-  .hackathons{
-    padding: 100px;
-    background-color: #F5EFE7;
-  }
-  .card-title{
-    font-weight: bold;
-  }
-  .card{
-    background-color: white;
-    box-shadow: 0 5px 20px rgba(1, 1, 1, 20%);
-    padding: 5px;
-    border-radius: 30px;
-    margin: 15px 0px 20px 0px;
-  }
- .card:hover{
+
+#fullPage {
+  background-color: #f4ebec;
+  color: #F5F4F0;
+  padding-top: 1px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.vision {
+  padding: 40px;
+  margin: 90px 100px 0px 100px;
+  border-radius: 10px;
+  background-color: #473e66;
+}
+
+.vision-text {
+  width: 550px;
+}
+
+.vision img {
+  width: 320px;
+  height: 390px;
+  border-radius: 15px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.vision-text h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+span {
+  color: #F1916D;
+}
+
+.vision-text p {
+  line-height: 16px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.btnAllPageButton {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #f1916d;
+  margin: 14px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btnAllPageButton:hover {
+  background: #ecc2c2;
+}
+
+.button-text {
+  margin: 70px;
+}
+
+#main-idea {
+  padding: 10px 20px;
+  margin-left: 300px;
+  margin-right: 190px;
+}
+
+.heading {
+  margin: 40px auto;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+}
+
+.heading h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #F1916D;
+  padding-right: 200px;
+}
+
+.heading-container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-image {
+  flex: 1;
+  margin-right: 40px;
+  overflow: hidden;
+}
+
+.logo-image img {
+  max-width: 60%;
+  height: 250px;
+  display: block;
+  transition: 0.5s ease;
+  margin-top: 10px;
+  margin-bottom: 110px;
+}
+
+.logo-image:hover img {
+  transform: scale(1.1);
+}
+
+.about-content {
+  flex: 0.5;
+}
+
+.about-content p {
+  font-size: 1rem;
+  font-style: italic;
+  color: #887aa6;
+  margin-bottom: 4rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 10px rgba(146, 143, 143, 0.756);
+  transition: color 0.3s, text-shadow 0.3s;
+  width: 500px;
+}
+
+.about-content:hover p {
+  transform: scale(1.1);
+}
+
+.hackathons {
+  padding: 100px;
+  background-color: #F5EFE7;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 5px 20px rgba(1, 1, 1, 20%);
+  padding: 5px;
+  border-radius: 30px;
+  margin: 15px 0px 20px 0px;
+}
+
+.card:hover {
   transform: scale(1.1);
   transition: 0.5s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .heading {
+    padding: 0px 20px;
+  }
   
-  @media all and (max-width:576px) {
-    .grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      flex-direction: column;
-    }
-    .hackathons {
-      padding: 50px;
-    }
+  .heading h1 {
+    font-size: 36px;
   }
-  @media screen and (max-width: 786px) {
-    .hackathons {
-      padding: 50px;
-    }
+  
+  .heading-container {
+    padding: 0px;
   }
+  
+  .about {
+    padding: 20px;
+    flex-direction: column;
+  }
+  
+  .logo-image {
+    margin-right: 0px;
+   overflow: visible;
+  }
+  
+  .logo-image img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  
+  .about-content {
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .about-content p {
+    width: 100%;
+  }
+  
+  .hackathons {
+    padding: 50px;
+  }
+  
+  .card {
+    margin: 15px 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .vision {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .vision-text {
+    width: 100%;
+  }
+  
+  .vision img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .vision-text h1 {
+    font-size: 36px;
+  }
+  
+  .button-text {
+    margin: 30px;
+  }
+  
+  #main-idea {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+  .heading h1 {
+    font-size: 30px;
+  }
+  
+  .about-content p {
+    width: 100%;
+    font-size: 16px;
+    padding: 20px;
+  }
+  
+  .hackathons {
+    padding: 30px;
+  }
+  
+  .card {
+    margin: 15px 0px;
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+  }
+}

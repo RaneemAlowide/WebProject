@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -64,25 +65,27 @@
 }
 
 /* style button, class "btn" */
-.btn {
-  width: 150px;
-  height: 50px;
-  border: none;
-  border-radius: 50px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #fff;
-  background: #f1916d;
-
-  margin: 14px 0;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
-.btn:hover {
-  background: #ecc2c2;
-}
-
+  
+.btnAllPageButton {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    background: #f1916d;
+  
+    margin: 14px 0;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .btnAllPageButton:hover {
+    background: #ecc2c2;
+  }
+  
+  
 
 /* footer style */
 #footer {
@@ -105,4 +108,3 @@
     margin: 0;
     transform: rotate(15deg);
 }
-

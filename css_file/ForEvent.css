@@ -144,61 +144,6 @@ border-radius: 10px;
 .service > * {
   flex: 1 1 100%;
 }
-
-
-.botten{
-  background-color: #188c88;
-  padding: 11px;
-  border-radius:10px ;
-}
-
-@media (min-width: 576px) and (max-width: 768px) {
-  .Desgin_all_content{
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 100px;
-   
-  }
-  .right_side {
-   display: none;
-    
-   }
-
-   .left_side{
-    margin-bottom: 100px;
-   }
-
- 
-    
- 
-}
-@media (min-width: 576px) and (max-width: 768px) {
-  .Desgin_all_content{
-    display: grid;
-    grid-template-columns: 1fr;
-    font-size: 100px;
-   
-  }
-  .right_side {
-   display: none;
-    
-   }
-
-   .left_side{
-    margin-bottom: 100px;
-   }
-
-
-
-  
-
-  
-
-    
- 
-}
-
-
 .CurrentConferences
 {
   font-size: 40px;
@@ -209,39 +154,86 @@ border-radius: 10px;
   
 }
 
+  
+  
+.btnAllPageButton {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background: #f1916d;
+
+  margin: 14px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.btnAllPageButton:hover {
+  background: #ecc2c2;
+}
 
 
-@media all and (max-width:992px) {
-  .IMAGEFORLEFTSIDE {
 
-    width: 340PX;
 
+
+
+
+    
+ 
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .Desgin_all_content{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 100px;
+   
+  }
+  .right_side {
+   display: none;
     
    }
-  
-  
-  
-  .grid {
-   display: grid;
-   grid-template-columns: 1FR ;
 
+   .left_side{
+    margin-bottom: 100px;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 250px;
+   }
   }
-  .BigConitiner{
-    
-    margin-right:0px ;
 
+   @media (max-width: 992px){
+  
    
-    }
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr;
+      margin-left: 25px;
+      width: 100px;
 
-    .service{
-      width: 400PX;
+     }
 
-    }
+
+
+  
+
+  
+
+    
+ 
+}
+
+
+
 
    
   
     
-}
+
 
 
   

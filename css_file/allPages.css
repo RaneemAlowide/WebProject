@@ -75,7 +75,7 @@
     font-weight: 600;
     color: #fff;
     background: #f1916d;
-  
+    text-decoration: none;
     margin: 14px 0;
     text-transform: uppercase;
     cursor: pointer;
@@ -84,7 +84,15 @@
   .btnAllPageButton:hover {
     background: #ecc2c2;
   }
-  
+
+  .btnAllPageButton:active {
+    text-decoration: none;
+    background: #ecc2c2;
+  }
+  .button {
+    padding: 10px 25px;
+    border-radius: 50px;
+  }
   
 
 /* footer style */

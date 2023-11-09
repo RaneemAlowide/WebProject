@@ -12,20 +12,7 @@
     font-size: 50px;
     font-weight: bold;
 }
-.button {
-background-color: #176B87; 
-color: #F5EFE7; 
-padding: 10px 25px;
-border-radius: 50px;
-border: 2px groove #176B87;
-text-decoration: none;
-transition: background-color 0.3s, color 0.3s; 
 
-}
-.button:hover {
-background-color: #F5EFE7; 
-color: #176B87; 
-}
 
 /* About section */
 .page-section{
